@@ -14,21 +14,23 @@ header {
     background: black;
     display: flex;
     flex-direction: column;
+    min-height: 10vh;
 }
 
 header h3 {
     width: 100%;
-    height: 10vh;
     color: white;
     font-size: 1.5rem;
     letter-spacing: 0.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem 0;
 }
 
 header a {
     text-decoration: none;
+    display: flex;
 }
 
 header h3:hover {
@@ -37,13 +39,13 @@ header h3:hover {
 
 header nav ul{
     width: 100%;
-    height: 10vh;
     list-style-type: none;
     background: #275a71;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding: 1rem 0;
 }
 
 header nav ul li {
@@ -62,16 +64,29 @@ header ul li a {
 }
 
 /*
-Image Component 1
-Profile image with my name and title
+Heading Style
 */
 
+.main-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a8ea7;
+    color: white;
+    letter-spacing: 0.25rem;
+    height: 4rem;
+}
+
 main {
-    min-height: 80vh;
+    min-height: 85vh;
     background-color: #bfd6e1;
     display: flex;
     flex-direction: column;
 }
+
+/*
+Profile image with my location and email
+*/
 
 .profile {
     min-height: 60vh;
@@ -100,7 +115,7 @@ main {
 }
 
 /*
-Image Component 2
+Image Component 4
 Social media icons with links
 */
 
@@ -138,4 +153,22 @@ footer {
     justify-content: center;
     align-items: center;
     height: 5vh;
+}
+
+/* 
+Large devices (laptops/desktops, 992px and up) 
+*/
+
+@media only screen and (min-width: 992px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        background: #275a71;
+        padding: 0 2rem;
+    }
+
+    header nav ul li {
+        margin-left: 1rem;
+        border: none;
+    }
 }
