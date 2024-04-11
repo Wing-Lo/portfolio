@@ -133,12 +133,13 @@ Skills
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 80%;
 }
 
 #skills ul li {
     width: 8rem;
     height: 8rem;
-    margin: 2.5vw;
+    margin: 2vw;
     border: #275a71 solid 0.2em;
     background: #bfd6e1;
     border-radius: 50%;

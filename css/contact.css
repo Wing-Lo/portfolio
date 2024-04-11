@@ -116,12 +116,12 @@ Social media icons with links
 .social-media a {
     text-decoration: none;
     color: white;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
 }
 
 .social-media a img {
     width: 15vw;
-    max-width: 100px;
+    max-width: 80px;
     display: flex;
     border-radius: 50%;
 }
