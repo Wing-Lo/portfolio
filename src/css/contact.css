@@ -14,7 +14,7 @@ header {
     background: black;
     display: flex;
     flex-direction: column;
-    min-height: 10vh;
+    height: 10vh;
 }
 
 header h3 {
@@ -34,10 +34,15 @@ header a {
 }
 
 header h3:hover {
-    color:#62ddd3;
+    color: #62ddd3;
 }
 
-header nav ul{
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul {
     width: 100%;
     list-style-type: none;
     background: #275a71;
@@ -111,7 +116,7 @@ Profile image with my location and email
 }
 
 .profile a {
-    color:#275a71
+    color: #275a71;
 }
 
 /*

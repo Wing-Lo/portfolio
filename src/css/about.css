@@ -9,7 +9,6 @@ body {
     height: 100vh;
 }
 
-
 /*
 Text Component 1
 Main header with home button and navigation buttons
@@ -36,11 +35,10 @@ header h3 {
 header a {
     text-decoration: none;
     display: flex;
-
 }
 
 header h3:hover {
-    color:#62ddd3;
+    color: #62ddd3;
 }
 
 header nav {
@@ -48,7 +46,7 @@ header nav {
     flex-direction: row;
 }
 
-header nav ul{
+header nav ul {
     width: 100%;
     list-style-type: none;
     background: #275a71;

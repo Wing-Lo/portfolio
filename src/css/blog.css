@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    height: 100vh;
+}
+
 /*
 Text Component 1
 Main header with home button and navigation buttons
@@ -14,6 +18,7 @@ header {
     background: black;
     display: flex;
     flex-direction: column;
+    min-height: 10vh;
 }
 
 header h3 {
@@ -33,18 +38,23 @@ header a {
 }
 
 header h3:hover {
-    color:#62ddd3;
+    color: #62ddd3;
 }
 
-header nav ul{
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul {
     width: 100%;
-    height: 10vh;
     list-style-type: none;
     background: #275a71;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding: 1rem 0;
 }
 
 header nav ul li {
@@ -114,15 +124,15 @@ Blog image with heading and published date
     padding: 0.3rem;
     justify-content: center;
     align-items: center;
-    text-align: center;    
+    text-align: center;
 }
 
 .blog a {
-    color:#275a71;
+    color: #275a71;
 }
 
 .blog a:hover {
-    color:#62ddd3;
+    color: #62ddd3;
 }
 
 .blog p {
@@ -155,11 +165,11 @@ Medium devices (portrait tablets and large phones, 600px and up)
         flex-wrap: wrap;
         align-items: flex-start;
     }
-    
+
     .blog article {
         width: 40%;
     }
-} 
+}
 
 /* 
 Large devices (laptops/desktops, 992px and up) 
@@ -183,8 +193,8 @@ Large devices (laptops/desktops, 992px and up)
         flex-wrap: wrap;
         align-items: flex-start;
     }
-    
+
     .blog article {
         width: 25%;
     }
-} 
+}
