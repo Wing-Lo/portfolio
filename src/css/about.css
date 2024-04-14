@@ -19,6 +19,8 @@ header {
     display: flex;
     flex-direction: column;
     min-height: 10vh;
+    position: fixed;
+    width: 100%;
 }
 
 header h3 {
@@ -90,6 +92,7 @@ Heading Style
     color: white;
     letter-spacing: 0.25rem;
     height: 4rem;
+    margin-top: 8rem;
 }
 
 /*
@@ -266,5 +269,9 @@ Large devices (laptops/desktops, 992px and up)
     header nav ul li {
         margin-left: 1rem;
         border: none;
+    }
+
+    .main-heading {
+        margin-top: 10vh;
     }
 }
