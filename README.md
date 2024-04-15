@@ -2,6 +2,8 @@
 
 ## A link to my published portfolio website
 
+https://wing-lo.netlify.app/
+
 ## A link to my GitHub repository
 
 Open the [Github](https://github.com/Wing-Lo/portfolio) for Wing's portfolio
@@ -42,6 +44,12 @@ The portfolio website I've developed features a fully responsive layout, ensurin
 ![Blog](docs/screenshot/laptop-4-blog.png)
 ![Blog-content](docs/screenshot/laptop-5-blog-content.png)
 ![Contact](docs/screenshot/laptop-6-contact.png)
+
+### Wireframe view
+
+![Mobile](docs/wireframe/wireframe-mobile.jpeg)
+![Tablet](docs/wireframe/wireframe-tablet.jpeg)
+![Laptop](docs/wireframe/wireframe-laptop.jpeg)
 
 ## Sitemap
 
