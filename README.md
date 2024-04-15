@@ -53,7 +53,7 @@ The portfolio website I've developed features a fully responsive layout, ensurin
 
 ## Sitemap
 
-![Sitemap](docs/wing-portfolio-sitemap.jpg)
+![Sitemap](docs/Wing-portfolio-sitemap.jpg)
 The website's structure is designed with user-friendly navigation in mind. The home page button and navigation bar are fixed on the top of every page, ensuring easy access regardless of scrolling position. Visitors can seamlessly transition between pages by clicking on the navigation buttons: Home (Wing Portfolio), About, Projects, Blogs, and Contact.
 
 Once on the Blog page, visitors can explore individual blog posts by clicking on their respective titles to access the full content. To facilitate further exploration, recent blog links are provided at the bottom of each post, enabling visitors to navigate to other posts of interest with ease. This intuitive structure ensures a smooth and engaging browsing experience, allowing visitors to effortlessly discover and interact with the website's content.
