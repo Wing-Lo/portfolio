@@ -69,3 +69,18 @@ The target audience for this portfolio website consists of potential employers s
 - Wireframe: Figma
 - Deployment platform: Netlify
 - Version control: Github
+
+## List of components
+
+1. Header with home button and nav bar for visitor to navigate to different pages at any time
+2. Home page: profile pic with my name, title and tagline for visitors to have a better image of me and what I can do for them as a web developer
+3. Footer on each page with the copyright statement.
+4. About page: profile pic with a description for visitors to know more abour me.
+5. About page: my skills in cicrle to emphasize what i can do in a clear way.
+6. About page: my experiences and education in rectangle showing the history of myself.
+7. About page: resume button with link to a pdf resumes so my potential employees can take a further step to know more about me.
+8. Project page: Images of my past projects with a title, platform and the project date to showcase what i have done in past.
+9. Blog page: a list of 5 blog posts with images, heading and published date so the visitors can easily pick on the topic that they are interested in and head to the next page to see the full article.
+10. Blog content page: a page for the full article with an image, heading, published date and links at the bottom for the visitors to navigate to other blog posts without jumping back to the blog page.
+11. Contact page: a email link for my potential employees to contact me easily.
+12. Contact page: 4 social media icons with links for visitors to get in touch with me through linkedin, twitter, facebook and github.
